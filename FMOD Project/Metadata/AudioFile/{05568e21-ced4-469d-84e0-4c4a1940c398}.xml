@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{05568e21-ced4-469d-84e0-4c4a1940c398}">
+		<property name="assetPath">
+			<value>Footsteps/sfx_platzi_sound_design_course_footstep_1.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.19064583333333332</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{c7d6e5d2-438e-4eea-a92e-074e077ef21d}</destination>
+		</relationship>
+	</object>
+</objects>
