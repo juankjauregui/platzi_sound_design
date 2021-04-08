@@ -1,4 +1,4 @@
-<REAPER_PROJECT 0.1 "6.26/win64" 1617851219
+<REAPER_PROJECT 0.1 "6.26/win64" 1617895730
   RIPPLE 0
   GROUPOVERRIDE 0 0 0
   AUTOXFADE 1
@@ -11,12 +11,12 @@
   PROJOFFS 0 0 0
   MAXPROJLEN 0 600
   GRID 3455 8 1 8 1 0 0 0
-  TIMEMODE 5 5 -1 30 0 0 -1
+  TIMEMODE 8 5 -1 30 0 0 -1
   VIDEO_CONFIG 0 0 256
   PANMODE 3
   CURSOR 0
-  ZOOM 98.05041108803405 0 0
-  VZOOMEX 40 0
+  ZOOM 69.66017842343786 0 0
+  VZOOMEX 5 0
   USE_REC_CFG 0
   RECMODE 1
   SMPTESYNC 0 30 100 40 1000 300 0 0 1 0 0
@@ -57,18 +57,41 @@
   GLOBAL_AUTO -1
   TEMPO 120 4 4
   PLAYRATE 1 0 0.25 4
-  SELECTION 0 6.93296970833333
-  SELECTION2 0 6.93296970833333
+  SELECTION 4.70857249325737 0
+  SELECTION2 4.70857249325737 0
   MASTERAUTOMODE 0
   MASTERTRACKHEIGHT 0 0
   MASTERPEAKCOL 16576
-  MASTERMUTESOLO 0
+  MASTERMUTESOLO 4
   MASTERTRACKVIEW 0 0.6667 0.5 0.5 0 -1 0 0 0 0 -1 -1 0
   MASTERHWOUT 0 0 1 0 0 0 0 -1
   MASTER_NCH 2 2
   MASTER_VOLUME 1 0 -1 -1 1
   MASTER_FX 1
-  MASTER_SEL 0
+  MASTER_SEL 1
+  <MASTERFXLIST
+    SHOW 0
+    LASTSEL 0
+    DOCKED 0
+    BYPASS 0 0 0
+    <VST "VST3: PAZ- Meters Mono (Waves)" "WaveShell1-VST3 10.0_x64.vst3" 0 "" 1996567056{5653545756554D70617A2D206D657465} ""
+      EDIBd+5e7f4BAAAAAQAAAAAAAAACAAAAAwAAAAAAAAACAAAAAAAAAFgDAAABAAAAAAAQAA==
+      SAMAAAEAAAAAAAMlAAAAAwAAAAFXVlVNc2V0QQAAAwVYUHN0PFByZXNldENodW5rWE1MVHJlZSB2ZXJzaW9uPSIyIj4KICAgIDxQcmVzZXQgTmFtZT0iIiBHZW5lcmlj
+      VHlwZT0iV0FTVCI+CiAgICAgICAgPFByZXNldEhlYWRlcj4KICAgICAgICAgICAgPFBsdWdpbk5hbWU+UEFaPC9QbHVnaW5OYW1lPgogICAgICAgICAgICA8UGx1Z2lu
+      U3ViQ29tcD5XVlVNPC9QbHVnaW5TdWJDb21wPgogICAgICAgICAgICA8UGx1Z2luVmVyc2lvbj4xMC4wLjAuMTY8L1BsdWdpblZlcnNpb24+CiAgICAgICAgICAgIDxB
+      Y3RpdmVTZXR1cD5TRVRVUF9BPC9BY3RpdmVTZXR1cD4KICAgICAgICAgICAgPFJlYWRPbmx5PnRydWU8L1JlYWRPbmx5PgogICAgICAgIDwvUHJlc2V0SGVhZGVyPgog
+      ICAgICAgIDxQcmVzZXREYXRhIFNldHVwPSJTRVRVUF9BIj4KICAgICAgICAgICAgPFBhcmFtZXRlcnMgVHlwZT0iUmVhbFdvcmxkIj4xNjAgMyAwICogKiAqICogKiAw
+      IDAKMCA1ICogKiAqICogKiAwIDAKKiA1IDUgMTkuNDY5OTk5OTk5OTk5OTk4ODYzICogNzcuNSAwIDAgNQo8L1BhcmFtZXRlcnM+CiAgICAgICAgPC9QcmVzZXREYXRh
+      PgogICAgICAgIDxQcmVzZXREYXRhIFNldHVwPSJTRVRVUF9CIj4KICAgICAgICAgICAgPFBhcmFtZXRlcnMgVHlwZT0iUmVhbFdvcmxkIj4xNjAgMyAwICogKiAqICog
+      KiAwIDAKMCA1ICogKiAqICogKiAwIDAKKiA1IDUgMTkuNDY5OTk5OTk5OTk5OTk4ODYzICogNzcuNSAwIDAgNQo8L1BhcmFtZXRlcnM+CiAgICAgICAgPC9QcmVzZXRE
+      YXRhPgogICAgPC9QcmVzZXQ+CjwvUHJlc2V0Q2h1bmtYTUxUcmVlPgoaAAAAPEJ5cGFzcyBWZXJzaW9uPSIxLjAiIEJ5cGFzcz0iMCIvPgoAAAAAAAAAAA==
+      AFBBWiBGdWxsIFJlc2V0ABAAAAA=
+    >
+    PRESETNAME "PAZ Full Reset"
+    FLOAT 1506 1502 283 438
+    FXID {A0926229-4B56-46BF-9FFD-D9372BF08704}
+    WAK 0 0
+  >
   <MASTERPLAYSPEEDENV
     EGUID {2EACB3EF-E3FC-4692-B502-7F58BFAADEE1}
     ACT 0 -1
@@ -87,8 +110,87 @@
   >
   <PROJBAY
   >
-  <TRACK {557E497F-BB26-4AB4-83F2-D8C6F593EB37}
-    NAME "City Freeway Traffic Medium"
+  <TRACK {0BA02AD4-0F8D-4F3E-A341-C8CEA2A1A75E}
+    NAME "Activación cápsula"
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 1 1
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
+    FREEMODE 0
+    SEL 0
+    REC 0 0 1 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 -1 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {0BA02AD4-0F8D-4F3E-A341-C8CEA2A1A75E}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <FXCHAIN
+      WNDRECT 421 1071 962 525
+      SHOW 0
+      LASTSEL 2
+      DOCKED 0
+      BYPASS 0 0 0
+      <JS utility/volume ""
+        5.000000 0.000000 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+      >
+      FLOATPOS 0 0 0 0
+      FXID {A3A9A4A9-EE81-4131-8867-CAF6BAC423FB}
+      WAK 0 0
+      BYPASS 0 0 0
+      <VST "VST: ReaEQ (Cockos)" reaeq.dll 0 "" 1919247729<56535472656571726561657100000000> ""
+        cWVlcu5e7f4CAAAAAQAAAAAAAAACAAAAAAAAAAIAAAABAAAAAAAAAAIAAAAAAAAAqAAAAAEAAAAAABAA
+        IQAAAAQAAAAAAAAAAQAAAAAAAAAAAFlAAAAAAAAA8D8AAAAAAAAAQAEIAAAAAQAAAAAAAAAAwHJAAAAAAAAA8D8AAAAAAAAAQAEIAAAAAQAAAAAAAAAAQI9AAAAAAAAA
+        8D8AAAAAAAAAQAEIAAAAAQAAAADpV4z64blA6IMsiWRo7D8AAAAAAAAAQAEBAAAAAQAAAAAAAAAAAPA/AAAAABYDAAAfAgAA
+        AAAQAAAA
+      >
+      FLOATPOS 0 0 0 0
+      FXID {94777B40-A35A-46D5-94BF-EEFC9635BDA0}
+      WAK 0 0
+      BYPASS 0 0 0
+      <VST "VST: ReaVerbate (Cockos)" reaverbate.dll 0 "" 1920361016<56535472766238726561766572626174> ""
+        OGJ2cu9e7f4CAAAAAQAAAAAAAAACAAAAAAAAAAIAAAABAAAAAAAAAAIAAAAAAAAAKAAAAAAAAAAAABAA
+        776t3g3wrd4AAIA/AACAP7wk7j6Odlw9AAAAPwAAAACnVbs+AAAAAA==
+        AAAQAAAA
+      >
+      FLOATPOS 0 0 0 0
+      FXID {DB10D7A7-C093-4B0E-8423-2B3E9866FF64}
+      WAK 0 0
+    >
+    <ITEM
+      POSITION 0
+      SNAPOFFS 0
+      LENGTH 7.76
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {61CE8D19-2D79-40A4-A149-AA20B0AE992E}
+      IID 1
+      NAME "Activación cápsula.gif"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {D956593F-C329-4516-89B4-07399E8E94C5}
+      <SOURCE VIDEO
+        FILE "D:\Documents\AsharaStudios\The Brightest Ocean\Audio\SFX\Reaper Project\Animaciones\Activación cápsula.gif"
+      >
+    >
+  >
+  <TRACK {0FD71072-BC0D-439C-8664-2402A426DF9A}
+    NAME BB_DRL__062
     PEAKCOL 16576
     BEAT -1
     AUTOMODE 0
@@ -98,64 +200,488 @@
     PLAYOFFS 0 1
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
     FREEMODE 0
-    SEL 1
+    SEL 0
     REC 0 0 1 0 0 0 0
     VU 2
     TRACKHEIGHT 0 0 0 0 -1 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
     FX 1
-    TRACKID {557E497F-BB26-4AB4-83F2-D8C6F593EB37}
+    TRACKID {0FD71072-BC0D-439C-8664-2402A426DF9A}
     PERF 0
     MIDIOUT -1
     MAINSEND 1 0
     <FXCHAIN
-      WNDRECT 1647 825 1091 865
+      WNDRECT 745 1275 1129 710
       SHOW 0
-      LASTSEL 1
+      LASTSEL 0
       DOCKED 0
-      BYPASS 1 0 0
-      <VST "VST: ReaVerbate (Cockos)" reaverbate.dll 0 "" 1920361016<56535472766238726561766572626174> ""
-        OGJ2cu9e7f4CAAAAAQAAAAAAAAACAAAAAAAAAAIAAAABAAAAAAAAAAIAAAAAAAAAKAAAAAAAAAAAABAA
-        776t3g3wrd6R8Nk/aCaoO+KuYj+v6Yk+AACAPwAAAABhmTM/AAAAAA==
-        AAAQAAAA
+      BYPASS 0 0 0
+      <JS utility/volume ""
+        -4.000000 0.000000 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
       >
-      FLOATPOS 0 0 0 0
-      FXID {36F402E1-6B1B-4D14-8258-926F6686B0E5}
-      WAK 0 0
-      BYPASS 1 0 0
-      <VST "VST: ReaVerb (Cockos)" reaverb.dll 0 "" 1919252066<56535472657662726561766572620000> ""
-        YnZlcu5e7f4CAAAAAQAAAAAAAAACAAAAAAAAAAIAAAABAAAAAAAAAAIAAAAAAAAAmgAAAAEAAAAAABAA
-        AAAAwVg6FkAAAAAAAAAAAAAAgD8AAIA/AAAAPwAAgD8AAIA/VkVSQkdFTgAYAAAAAAAAAFk9fEUAAIA/AYahQgAASEIAAIA/RUNIT0dFTgAcAAAAAAAAAKmHGEDG1x9B
-        AAAAPwAAgD4AAAAAAAAAP0JBU0lDRURJVAAcAAAAAACAPwAAAAAAQJxGUIIVQAAAAAAAAIA/AAAAAA==
-        AAAQAAAA
-      >
-      FLOATPOS 0 0 0 0
-      FXID {B4725384-A1E1-4465-8671-FAE0DA8401DA}
+      FLOATPOS 577 882 756 197
+      FXID {200C4FBD-83C2-4F5E-8084-B396E524160E}
       WAK 0 0
     >
     <ITEM
       POSITION 0
       SNAPOFFS 0
-      LENGTH 6.93296970833333
+      LENGTH 0.6200577946601
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.00077 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {A3094F82-39C5-4779-BD7E-A8400A746940}
+      IID 3
+      NAME BB_DRL__062.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 1.01738728721802
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {2F8B4DB7-82AC-4FE1-BAE2-F6059D1DCD92}
+      <SOURCE WAVE
+        FILE "D:\Libraries\SFX Libraries\Sonniss com - GDC 2016- Game Audio Bundle Part 1of3\Digital Rain Lab - Bleeping Buttons\BB_DRL__062.wav"
+      >
+    >
+    <ITEM
+      POSITION 0.6200577946601
+      SNAPOFFS 0
+      LENGTH 0.62005779466011
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.00077 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {E255DEEB-E08D-4584-8D2D-4E43907DBADC}
+      IID 3
+      NAME BB_DRL__062.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 1.01738728721802
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {6AC1AB41-93E3-42BA-98B8-A214ED49BA0B}
+      <SOURCE WAVE
+        FILE "D:\Libraries\SFX Libraries\Sonniss com - GDC 2016- Game Audio Bundle Part 1of3\Digital Rain Lab - Bleeping Buttons\BB_DRL__062.wav"
+      >
+    >
+    <ITEM
+      POSITION 1.24011558932021
+      SNAPOFFS 0
+      LENGTH 0.62005779466011
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.00077 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {D0B3D7F7-8587-4E7E-89BC-3A4C7724E433}
+      IID 6
+      NAME BB_DRL__062.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 1.01738728721802
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {4DC1EE17-2E1B-4960-B833-CB17C33052C8}
+      <SOURCE WAVE
+        FILE "D:\Libraries\SFX Libraries\Sonniss com - GDC 2016- Game Audio Bundle Part 1of3\Digital Rain Lab - Bleeping Buttons\BB_DRL__062.wav"
+      >
+    >
+    <ITEM
+      POSITION 1.86017338398032
+      SNAPOFFS 0
+      LENGTH 0.12869559337368
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.00077 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {F50F5853-F2CB-4827-89B7-5B2C14721680}
+      IID 7
+      NAME BB_DRL__062.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 1.01738728721802
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {87D30F40-C5C5-48C2-A693-A955DFDD7E2D}
+      <SOURCE WAVE
+        FILE "D:\Libraries\SFX Libraries\Sonniss com - GDC 2016- Game Audio Bundle Part 1of3\Digital Rain Lab - Bleeping Buttons\BB_DRL__062.wav"
+      >
+    >
+  >
+  <TRACK {F1C3A4CB-701A-4F13-B4AB-14995974BA8B}
+    NAME CK_Sensors-13
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
+    FREEMODE 0
+    SEL 0
+    REC 0 0 1 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 -1 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {F1C3A4CB-701A-4F13-B4AB-14995974BA8B}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <FXCHAIN
+      SHOW 0
+      LASTSEL 0
+      DOCKED 0
+      BYPASS 0 0 0
+      <JS utility/volume ""
+        -5.800000 0.000000 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+      >
+      FLOATPOS 933 830 756 197
+      FXID {67814C72-8EAF-4321-B7C9-8C6ED589490E}
+      WAK 0 0
+    >
+    <ITEM
+      POSITION 1.63433800994313
+      SNAPOFFS 0
+      LENGTH 0.34817375728518
       LOOP 1
       ALLTAKES 0
       FADEIN 1 0.01 0 1 0 0 0
-      FADEOUT 1 0.00077 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
       MUTE 0 0
-      SEL 1
-      IGUID {DCD8B52C-B64E-4454-BF14-6C03A9C4EF5B}
-      IID 212
-      NAME "City Freeway Traffic Medium.wav"
+      SEL 0
+      IGUID {33E54E1F-2E6D-4D50-9ED9-8AD7FA4F7642}
+      IID 13
+      NAME PM_CS_beep_classic_denied.wav
       VOLPAN 1 0 1 -1
-      SOFFS 9.07175649565065
+      SOFFS 0
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
-      GUID {BE585388-E95F-4A4A-B0A6-16471C7FB031}
+      GUID {B98B1C9E-9D69-4204-BEAD-9551CB0772BE}
       <SOURCE WAVE
-        FILE "D:\Libraries\SFX Libraries\Sonniss com - Game Audio Monthy - #1\Sonniss.com - Game Audio Monthy - #1\2496sfx - Cities\City Freeway Traffic Medium.wav"
+        FILE "D:\Libraries\SFX Libraries\Sonniss com - GDC 2018 - Game Audio Bundle Part 4of8\Sonniss.com - GDC 2018 - Game Audio Bundle Part 4of8\Phil Michalski – CYBERSPHERE\PM_CS_beep_classic_denied.wav"
+      >
+    >
+  >
+  <TRACK {A4DA2D7F-82FC-420C-935E-705BA673236B}
+    NAME "Bleeps Assortment"
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 0.47543563359423 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
+    FREEMODE 0
+    SEL 0
+    REC 0 0 1 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 -1 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {A4DA2D7F-82FC-420C-935E-705BA673236B}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <FXCHAIN
+      SHOW 0
+      LASTSEL 0
+      DOCKED 0
+      BYPASS 0 0 0
+      <JS utility/volume ""
+        -3.000000 0.000000 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+      >
+      FLOATPOS 121 60 756 197
+      FXID {4EFF106A-F22F-4A03-AAA8-8EBAAA7CE51B}
+      WAK 0 0
+    >
+    <ITEM
+      POSITION 0
+      SNAPOFFS 0
+      LENGTH 2.00027034414378
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.001084 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {2420BBDA-8393-4609-BCBC-33B03D6770C1}
+      IID 14
+      NAME "Bleeps Assortment.wav"
+      VOLPAN 1 0 1 -1
+      SOFFS 0.06948797777217
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {9350EBEA-8489-4A74-95FF-1668EFFF45BF}
+      <SOURCE SECTION
+        LENGTH 4.23449680502619
+        STARTPOS 5.59779821542486
+        OVERLAP 0.01
+        <SOURCE WAVE
+          FILE "D:\Libraries\SFX Libraries\Sony6\Electronics\Bleeps Assortment.wav"
+        >
+      >
+    >
+  >
+  <TRACK {31779865-FD7B-45DE-B2E7-70EFBC99BBAC}
+    NAME "Bleeps Assortment"
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
+    FREEMODE 0
+    SEL 0
+    REC 0 0 1 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 -1 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {31779865-FD7B-45DE-B2E7-70EFBC99BBAC}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <FXCHAIN
+      SHOW 0
+      LASTSEL 0
+      DOCKED 0
+      BYPASS 0 0 0
+      <JS utility/volume ""
+        -2.800000 0.000000 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+      >
+      FLOATPOS 121 60 756 197
+      FXID {07094C69-5EDD-4006-974C-D42BD9AE3C00}
+      WAK 0 0
+    >
+    <ITEM
+      POSITION 1.9345844031262
+      SNAPOFFS 0
+      LENGTH 0.48900744966188
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 3 0.151194 0 3 0 1 1
+      MUTE 0 0
+      SEL 0
+      IGUID {38771903-20EF-414F-96AC-9C21A5E7821A}
+      IID 16
+      NAME "Bleeps Assortment.wav"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {A7D019EA-C326-4906-937D-F18E264EBAEB}
+      <SOURCE SECTION
+        LENGTH 1.21870883656851
+        STARTPOS 0
+        OVERLAP 0.01
+        <SOURCE WAVE
+          FILE "D:\Libraries\SFX Libraries\Sony6\Electronics\Bleeps Assortment.wav"
+        >
+      >
+    >
+  >
+  <TRACK {3FCFB086-E3A6-4C27-91FF-EF60989EAD5D}
+    NAME "Classic Alarm 01"
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
+    FREEMODE 0
+    SEL 0
+    REC 0 0 1 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 -1 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {3FCFB086-E3A6-4C27-91FF-EF60989EAD5D}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <FXCHAIN
+      SHOW 0
+      LASTSEL 0
+      DOCKED 0
+      BYPASS 0 0 0
+      <JS utility/volume ""
+        -18.000000 0.000000 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+      >
+      FLOATPOS 121 60 756 197
+      FXID {076F5DC9-9E5F-439A-A7DD-B188B279B99F}
+      WAK 0 0
+    >
+    <ITEM
+      POSITION 1.95616059000641
+      SNAPOFFS 0
+      LENGTH 0.24331065759637
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {B503DD88-C179-4A62-9C98-297A3E07BE36}
+      IID 19
+      NAME "Synthetic Chirp.wav"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {4B64E835-B525-4247-9F15-926EFDADE06E}
+      <SOURCE WAVE
+        FILE "D:\Libraries\SFX Libraries\Sony6\Electronics\Synthetic Chirp.wav"
+      >
+    >
+  >
+  <TRACK {4E0AECBB-163B-468A-B187-B51194D818E7}
+    NAME 33773_SFX
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
+    FREEMODE 0
+    SEL 0
+    REC 0 0 1 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 -1 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {4E0AECBB-163B-468A-B187-B51194D818E7}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <FXCHAIN
+      SHOW 0
+      LASTSEL 0
+      DOCKED 0
+      BYPASS 0 0 0
+      <JS utility/volume ""
+        -15.400000 0.000000 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+      >
+      FLOATPOS 121 60 756 197
+      FXID {A82A67C0-9BA9-498E-8A6F-110681D61CDD}
+      WAK 0 0
+    >
+    <ITEM
+      POSITION 1.97457645780374
+      SNAPOFFS 0
+      LENGTH 0.99711264135317
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01345 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {DA1C8374-6398-4EB2-89D9-44A5E5E50217}
+      IID 22
+      NAME 33773_SFX.ogg
+      VOLPAN 1 0 1 -1
+      SOFFS 0.40159458382414
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {88D3759D-6E13-4AE3-893C-03041BD0189F}
+      <SOURCE SECTION
+        LENGTH 1.3987072251773
+        STARTPOS 1.54032088504728
+        OVERLAP 0.01
+        <SOURCE VORBIS
+          FILE "D:\Libraries\SFX Libraries\Juicer3\Musical\SynthElementLong\33773_SFX.ogg"
+        >
+      >
+    >
+  >
+  <TRACK {FE143DDB-A974-43D9-AF3F-5D5AB471FA99}
+    NAME sine-sweep-linear-1sec-44100sr
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1.08695635014794 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 2 -1
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
+    FREEMODE 0
+    SEL 0
+    REC 0 0 1 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 -1 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {FE143DDB-A974-43D9-AF3F-5D5AB471FA99}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <FXCHAIN
+      WNDRECT 544 790 1073 270
+      SHOW 0
+      LASTSEL 0
+      DOCKED 0
+      BYPASS 0 0 0
+      <JS utility/volume ""
+        -19.000000 0.000000 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+      >
+      FLOATPOS 0 0 0 0
+      FXID {9DCD70C0-19C5-4B83-BA52-C5BBAE88FDE2}
+      WAK 0 0
+    >
+    <ITEM
+      POSITION 1.89080444780056
+      SNAPOFFS 0
+      LENGTH 1.788
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {9E197A5E-47F7-4E79-ABBD-9F27C49D3386}
+      IID 26
+      NAME 37503_SFX.ogg
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {77591641-4B93-4FCE-AEEA-28B8B67DF86C}
+      <SOURCE VORBIS
+        FILE "D:\Libraries\SFX Libraries\Juicer3\Noise\Sweepers\37503_SFX.ogg"
       >
     >
   >
