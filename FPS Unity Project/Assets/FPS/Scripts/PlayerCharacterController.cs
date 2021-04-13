@@ -70,6 +70,14 @@ public class PlayerCharacterController : MonoBehaviour
     [Tooltip("Sound played when taking damage froma fall")]
     public AudioClip fallDamageSFX;
 
+    //FMOD
+    [FMODUnity.EventRef]
+    public string movementRef;
+    private FMOD.Studio.EventInstance movementEventInstance;
+    private FMOD.Studio.EventDescription movementEventED;
+    private FMOD.Studio.PARAMETER_DESCRIPTION movementPD;
+
+
     [Header("Fall Damage")]
     [Tooltip("Whether the player will recieve damage when hitting the ground at high speed")]
     public bool recievesFallDamage;
@@ -143,6 +151,12 @@ public class PlayerCharacterController : MonoBehaviour
         // force the crouch state to false when starting
         SetCrouchingState(false, true);
         UpdateCharacterHeight(true);
+
+        #region Audio
+        movementEventInstance = FMODUnity.RuntimeManager.CreateInstance(movementRef);
+        movementEventED = FMODUnity.RuntimeManager.GetEventDescription(movementRef);
+        movementEventED.getParameterDescriptionByName("movement", out movementPD); 
+        #endregion
     }
 
     void Update()
@@ -292,8 +306,11 @@ public class PlayerCharacterController : MonoBehaviour
                         characterVelocity += Vector3.up * jumpForce;
 
                         // play sound
-                        audioSource.PlayOneShot(jumpSFX);
-
+                        //audioSource.PlayOneShot(jumpSFX);
+                        #region Audio
+                        movementEventInstance.setParameterByID(movementPD.id, 0.9f);
+                        movementEventInstance.start(); 
+                        #endregion
                         // remember last time we jumped because we need to prevent snapping to ground for a short time
                         m_LastTimeJumped = Time.time;
                         hasJumpedThisFrame = true;
@@ -309,7 +326,11 @@ public class PlayerCharacterController : MonoBehaviour
                 if (m_footstepDistanceCounter >= 1f / chosenFootstepSFXFrequency)
                 {
                     m_footstepDistanceCounter = 0f;
-                    audioSource.PlayOneShot(footstepSFX);
+                    //audioSource.PlayOneShot(footstepSFX);
+                    #region
+                    movementEventInstance.setParameterByID(movementPD.id, 0f); 
+                    movementEventInstance.start();
+                    #endregion
                 }
 
                 // keep track of distance traveled for footsteps sound

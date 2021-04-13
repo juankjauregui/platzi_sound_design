@@ -39,6 +39,26 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 1
+--- !u!114 &-8213857686257928867
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/sfx_platzi_sound_design_course_helicopter/helicopter
+  m_EditorClassIdentifier: 
+  Name: helicopter
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 0
 --- !u!114 &-7884311733066205368
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -59,7 +79,7 @@ MonoBehaviour:
   Is3D: 1
   IsOneShot: 0
   Parameters:
-  - {fileID: -1279269178680867117}
+  - {fileID: 1066522982306393270}
   MinDistance: 1
   MaxDistance: 20
   Length: 0
@@ -97,7 +117,7 @@ MonoBehaviour:
   Path: ../FMOD Project/Build/Desktop/Music.bank
   Name: Music
   StudioPath: bank:/Music
-  lastModified: 637535863767604041
+  lastModified: 637538615972636886
   LoadResult: 0
   FileSizes: []
   Exists: 1
@@ -142,6 +162,26 @@ MonoBehaviour:
   - Name: 
     Value: 1142
   Exists: 0
+--- !u!114 &-5281166984212525895
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/sfx_platzi_sound_design_movement/movement
+  m_EditorClassIdentifier: 
+  Name: movement
+  Min: 0
+  Max: 3
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 0
 --- !u!114 &-4705308599397658975
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -178,6 +218,46 @@ MonoBehaviour:
   Name: helicopter
   Min: 0
   Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 0
+--- !u!114 &-4106563658388609298
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/sfx_platzi_sound_design_course_helicopter/helicopter
+  m_EditorClassIdentifier: 
+  Name: helicopter
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 0
+--- !u!114 &-4037800997979262992
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/sfx_platzi_sound_design_movement/Movement
+  m_EditorClassIdentifier: 
+  Name: Movement
+  Min: 0
+  Max: 3
   Default: 0
   ID:
     data1: 0
@@ -245,6 +325,46 @@ MonoBehaviour:
   - Name: Desktop
     Value: 1142
   Exists: 1
+--- !u!114 &-3204906155030221052
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/sfx_platzi_sound_design_course_helicopter/helicopter
+  m_EditorClassIdentifier: 
+  Name: helicopter
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 0
+--- !u!114 &-2514468658974035744
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/sfx_platzi_sound_design_course_helicopter/helicopter
+  m_EditorClassIdentifier: 
+  Name: helicopter
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &-2234081468506554593
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -268,6 +388,26 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 2000
+--- !u!114 &-1540441907137031565
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/sfx_platzi_sound_design_movement/Movement
+  m_EditorClassIdentifier: 
+  Name: Movement
+  Min: 0
+  Max: 3
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &-1466981536103026690
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -359,7 +499,7 @@ MonoBehaviour:
   - {fileID: 393310703760542042}
   StringsBanks:
   - {fileID: 2746655122369284734}
-  stringsBankWriteTime: 637535863767564160
+  stringsBankWriteTime: 637538615972596786
   cacheVersion: 6
 --- !u!114 &280098280062939281
 MonoBehaviour:
@@ -399,7 +539,7 @@ MonoBehaviour:
   Path: ../FMOD Project/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637535863767524257
+  lastModified: 637538615972556892
   LoadResult: 0
   FileSizes: []
   Exists: 1
@@ -466,6 +606,46 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 510
+--- !u!114 &1066522982306393270
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/sfx_platzi_sound_design_course_helicopter/helicopter
+  m_EditorClassIdentifier: 
+  Name: helicopter
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
+--- !u!114 &1363175717464245610
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/sfx_platzi_sound_design_movement/movement
+  m_EditorClassIdentifier: 
+  Name: movement
+  Min: 0
+  Max: 3
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 0
 --- !u!114 &1770517183396353651
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -529,6 +709,46 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 510
+--- !u!114 &2435824242640584711
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/sfx_platzi_sound_design_movement/Movement
+  m_EditorClassIdentifier: 
+  Name: Movement
+  Min: 0
+  Max: 3
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 0
+--- !u!114 &2451892791069196161
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/sfx_platzi_sound_design_movement/movement
+  m_EditorClassIdentifier: 
+  Name: movement
+  Min: 0
+  Max: 3
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &2452731882117305555
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -567,7 +787,7 @@ MonoBehaviour:
   Path: ../FMOD Project/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637535863767564160
+  lastModified: 637538615972596786
   LoadResult: 0
   FileSizes:
   - Name: Desktop
@@ -613,7 +833,7 @@ MonoBehaviour:
   Is3D: 0
   IsOneShot: 1
   Parameters:
-  - {fileID: 2791359267309177930}
+  - {fileID: 2451892791069196161}
   MinDistance: 0
   MaxDistance: 0
   Length: 0
@@ -676,7 +896,7 @@ MonoBehaviour:
   Path: ../FMOD Project/Build/Desktop/SFX.bank
   Name: SFX
   StudioPath: bank:/SFX
-  lastModified: 637535863770025564
+  lastModified: 637538615973334811
   LoadResult: 0
   FileSizes: []
   Exists: 1
@@ -865,6 +1085,26 @@ MonoBehaviour:
   MaxDistance: 20
   Length: 0
 --- !u!114 &7951238475154474855
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/sfx_platzi_sound_design_course_helicopter/helicopter
+  m_EditorClassIdentifier: 
+  Name: helicopter
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 0
+--- !u!114 &8183723903508715600
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
