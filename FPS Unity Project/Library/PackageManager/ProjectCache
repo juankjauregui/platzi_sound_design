@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637535973469950395
-    m_Hash: 3958579816
+      ticks: 637538802613779293
+    m_Hash: 3848296815
   m_LockFileStatus:
     m_FilePath: D:/Documents/Platzi Sound Design Course/FPS Unity Project/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637535973470030160
-    m_Hash: 2936197449
+      ticks: 637538802613789263
+    m_Hash: 1834176706
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:

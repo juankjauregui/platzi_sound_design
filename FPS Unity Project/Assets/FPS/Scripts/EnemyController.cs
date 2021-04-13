@@ -330,8 +330,10 @@ public class EnemyController : MonoBehaviour
 
             // play the damage tick sound
             if (damageTick && !m_WasDamagedThisFrame)
-                AudioUtility.CreateSFX(damageTick, transform.position, AudioUtility.AudioGroups.DamageTick, 0f);
-
+                #region Audio
+                FMODUnity.RuntimeManager.PlayOneShot("event:/sfx_platzi_sound_design_course_enemy_takes_damage");
+            //AudioUtility.CreateSFX(damageTick, transform.position, AudioUtility.AudioGroups.DamageTick, 0f);
+                #endregion
             m_WasDamagedThisFrame = true;
         }
     }
@@ -350,7 +352,9 @@ public class EnemyController : MonoBehaviour
         {
             Instantiate(lootPrefab, transform.position, Quaternion.identity);
         }
-
+        #region Audio
+        FMODUnity.RuntimeManager.PlayOneShot("event:/sfx_platzi_sound_design_course_enemy_dies");
+        #endregion
         // this will call the OnDestroy function
         Destroy(gameObject, deathDuration);
     }
